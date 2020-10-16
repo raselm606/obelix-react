@@ -1,0 +1,1376 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 26px;
+    color: #203459;
+    line-height: 36px;
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    position: relative;
+}
+@font-face {
+    font-family: 'League Spartan', sans-serif;
+    src: local('League Spartan'), url("../customfont/LeagueSpartan-Bold.otf") format('opentype');
+}
+
+.btn-primary{
+
+    background: #fff !important;
+    background-image: -moz-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    background-image: -webkit-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    background-image: -ms-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    background-image: linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    padding: 10px 40px !important;
+    border-radius: 30px !important;
+    color: #814a10 !important;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 900 !important;
+    border: none !important;
+}
+.btn-primary:hover {
+     color: #fff !important;
+    background: linear-gradient(-29deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition:  all .4s ease-in-out;
+    -ms-transition:  all .4s ease-in-out;
+    -o-transition:  all .4s ease-in-out;
+    transition:  all .4s ease-in-out;
+}
+.btn, .btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a, a:hover{
+    text-decoration: none !important;
+}
+h2{
+    font-size: 34px;
+    line-height: 46px;
+    color: #333333;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800 !important;
+
+}
+
+p{
+    font-size: 26px;
+    line-height: 36px;
+    color: #203459;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.section__padding70{
+    padding: 70px 0;
+}
+.section__padding100{
+    padding: 100px 0;
+}
+.section__padding__bottom0{
+    padding-bottom:0;
+}
+
+/*navbar banner css*/
+.topNavbar{
+    background: url(../images/landing/slider5.png);
+    height: 938px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+.topNavbar .navbar {
+    background: none !important;
+}
+.topNavbar .navbar {
+    padding-top: 50px;
+    z-index: 99;
+}
+.topNavbar .navbar .navbar-nav a {
+    font-size: 16px !important;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+.bannerArea {
+}
+.bannerLeftText {
+    margin-top: 190px;
+    margin-left: 30px;
+}
+.bannerLeftText h1 {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 100 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.bannerLeftText h3 {
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    line-height: 1.2;
+    -moz-transform: matrix( 2.24668307348766,0.00048680871015,-0.00048680871015,2.24668307348766,0,0);
+    -webkit-transform: matrix( 2.24668307348766,0.00048680871015,-0.00048680871015,2.24668307348766,0,0);
+    -ms-transform: matrix( 2.24668307348766,0.00048680871015,-0.00048680871015,2.24668307348766,0,0);
+    transform: matrix( 2.24668307348766,0.00048680871015,-0.00048680871015,2.24668307348766,0,0);
+    text-align: center;
+    text-shadow: 1px 0px 5px #fff;
+    margin-top: 36px;
+    margin-bottom: 15px;
+    margin-left: 191px;
+}
+.bannerLeftText h3 img {
+    width: 55px;
+    margin-left: 6px;
+}
+.topNavbar .navbar-nav a:hover {
+    color: rgba(0,0,0,.7) !important;
+}
+/*what is obelix section css*/
+.bannerbtn .btn-primary {
+    padding: 13px 55px !important;
+}
+
+.stakeButton img {
+    margin-bottom: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+    width: 130px;
+}
+.stakeButton {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+}
+.twobtn img {
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+    width: 130px;
+}
+.pooltarget img {
+    width: 130px;
+    margin-left: 70px;
+}
+.stakeButton:hover .onbtn{
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+}
+.pushbtn{
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+}
+.stakeButton:hover .pushbtn{
+    display: inline-block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+}
+
+
+.fundofff{
+    display: none;
+}
+
+.twobtn:hover .fundofff{
+    display: inline-block;
+}
+.twobtn:hover .fundonn{
+    display: none;
+}
+
+.poolofff{
+    display:none;
+}
+.pooltarget:hover .poolofff{
+    display: inline-block;
+}
+.pooltarget:hover .poolonn{
+    display: none;
+}
+
+
+
+.whatisObelix {
+    position: relative;
+    overflow: hidden;
+}
+.whatisObelix::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #e8e8e8, #e8e8e8);
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(2.5);
+    z-index: -1;
+}
+.rightimgwhat img {
+    width: 95%;
+}
+
+/*why a fund css*/
+.whyaFundtext {
+    position: relative;
+}
+/*.whyaFundtext:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    bottom: -77px;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background: url(../images/landing/cross.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: right bottom;*/
+/*}*/
+.whyaFundtext span{
+    font-weight: 600;
+}
+
+/*obelix rewards css*/
+.rewardBtn .btn-primary {
+    width: 175px;
+}
+.rewardsObelix {
+    position: relative;
+    overflow: hidden;
+}
+.rewardsObelix::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #eeeeee, #eeeeee);
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(2.5);
+    z-index: -1;
+}
+.titleareaRewards {
+    position: relative;
+}
+/*.titleareaRewards:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: url(../images/landing/cross.png);*/
+/*    height: 58px;*/
+/*    width: 100%;*/
+/*    left: -7%;*/
+/*    top: -21px;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: auto;*/
+/*}*/
+
+.rewardBtn{
+    position: relative;
+
+}
+.rewardBtn .mbb-5 {
+    margin-bottom: 5px;
+}
+.rewardBtn .mbbb-5 {
+    margin-bottom: 125px;
+}
+.rewardBtn .mmb-3 {
+    margin-top: -122px;
+}
+
+
+
+
+/*.rewardBtn:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: url(/static/media/cross.85c4cc2d.png);*/
+/*    height: 58px;*/
+/*    width: 100%;*/
+/*    left: 92%;*/
+/*    bottom: -23%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: auto;*/
+/*}*/
+
+/*Roadmap css*/
+.roadMap {
+    padding: 80px 0;
+}
+.roadTwo {
+    margin-top: 220px;
+}
+.roadOne span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'lato';
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.roadTwo span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'lato';
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.roadOne p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'lato';
+}
+.roadTwo p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'lato';
+}
+.roadOne img {
+    width: 35px;
+    margin-bottom: 10px;
+}
+.roadTwo img {
+    width: 35px;
+    margin-bottom: 10px;
+}
+.roadd {
+    position: relative;
+}
+
+.roadd:before {
+    content: '';
+    background: url('../images/landing/roadmap2.png');
+    position: absolute;
+    top: 192px;
+    left: 45px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.FooterArea {
+    background: #252525;
+    padding: 50px 0;
+}
+.footerText p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 34px;
+}
+.socialIcon span {
+    color: #252525;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 25px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.socialIcon span:hover {
+    background: #00e676;
+}
+
+/*faq css*/
+.FaqArea {
+    padding: 70px 0;
+}
+.faqTtile h2 {
+    /*font-size: 36px;*/
+    /*color: #252525;*/
+    text-align: center;
+    margin-bottom: 70px;
+}
+.accordionAll .card-header {
+    background-image: -moz-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    background-image: -webkit-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    background-image: -ms-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    background-image: linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 1 !important;
+    text-align: center;
+    border: 0 solid transparent;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.accordionAll .card-body {
+    padding: 50px 30px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    transform: skew(10deg);
+}
+.accordionAll .card {
+    border: 0 solid transparent;
+    border-radius: 0;
+    margin-bottom: 30px;
+    transform: skew(-10deg);
+}
+.accordionAll .accordion>.card {
+    overflow: hidden;
+}
+
+.accordionAll .card-header span {
+    transform: skew(10deg)!important;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+}
+
+/*footer area css*/
+.FooterArea {
+    background: #252525;
+    padding: 50px 0;
+}
+.footerText p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 34px;
+}
+.socialIcon span {
+    color: #252525;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 25px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.socialIcon span:hover {
+    background: #e88c00;
+    color: #fff;
+}
+.disclimer span {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.titledis h3 {
+    text-transform: uppercase;
+}
+.disdis p {
+    font-size: 17px;
+    text-align: justify;
+}
+.modhed.modal-header {
+    border-bottom: 0px solid transparent !important;
+}
+.modfoot.modal-footer {
+    border-top: 0px solid transparent !important;
+}
+.btnMain a.btn-primary:hover {
+    color: #fff !important;
+}
+
+.bannerbtn .btn-primary {
+    margin-left: 30px;
+}
+
+/*Responsive CSS*/
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .logoImg{
+        width: 120px;
+    }
+    .topNavbar .navbar-nav {
+        margin-top: 30px;
+    }
+    .bannerLeftText h3 {
+        transform: none;
+    }
+    .rightimgwhat img {
+        width: 100%;
+    }
+    .whyaFund img {
+        width: 100%;
+    }
+
+    .accordionAll .card {
+        transform: skew(0deg);
+    }
+    .accordionAll .card-header span {
+        transform: skew(0deg) !important;
+        font-size: 20px;
+    }
+    .socialIcon span {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    .footerText p {
+        font-size: 16px;
+    }
+    .accordionAll .card-body {
+        transform: skew(0deg);
+    }
+    .roadd:before{
+        display: none;
+    }
+    .roadTwo {
+        margin-top: 15px;
+    }
+    .whatisObelix::after {
+        transform: scaleX(6);
+    }
+    .topNavbar{
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .topNavbar:after {
+        background-image: url(../images/landing/slider4.png);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        width: 100%;
+        /* border-radius: 0 0 50% 50%/0 0 100% 100%; */
+        transform: scaleX(26);
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        background-color: #383838;
+    }
+    .bannerLeftText {
+        margin-top: 78px;
+    }
+    .bannerLeftText h3 {
+        margin-bottom: 2px;
+        font-size: 60px;
+        margin-left: 0;
+    }
+    .bannerbtn {
+        text-align: center !important;
+    }
+    .rewardsObelix::after {
+        transform: scaleX(5.5);
+    }
+    .rewardBtn:before {
+        left: 78%;
+    }
+    .titleareaRewards:before {
+        top: -68px;
+    }
+    .bannerArea .bannerbtn{
+        text-align: center !important;
+    }
+    .pooltarget img {
+        margin-left: 28px;
+    }
+    .whyaFundtitle h2 {
+        text-align: center;
+    }
+    .Roadtitle h2 {
+        text-align: center;
+    }
+
+    .rewardBtn .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+    .rewardBtn .mmb-3 {
+        margin-top: 20px !important;
+    }
+    .rewardBtn {
+        margin-top: 20px;
+    }
+    .rewardText p {
+        font-size: 20px;
+    }
+    .whyaFundtext p {
+        font-size: 20px;
+    }
+    .whatobeText p {
+        font-size: 20px;
+    }
+    .bannerLeftText h1 {
+        font-size: 26px;
+        text-align: center;
+        margin-left: -19px;
+    }
+    .accordionAll .card-body {
+        transform: skew(0deg);
+        font-size: 20px;
+    }
+    .bannerLeftText h3 img {
+        width: 75px;
+    }
+    .whatobeText h2 {
+        text-align: center;
+    }
+    .titleareaRewards h2 {
+        text-align: center;
+    }
+
+    .bannerLeftText{
+        margin-left: 0 !important;
+    }
+    .bannerbtn .btn-primary {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px){
+    .logoImg{
+        width: 120px;
+    }
+    .topNavbar .navbar-nav {
+        margin-top: 30px;
+    }
+    .bannerLeftText h3 {
+        transform: none;
+        font-size: 60px;
+        margin-left: 0;
+    }
+    .bannerbtn {
+        text-align: center !important;
+    }
+    .rightimgwhat img {
+        width: 100%;
+    }
+    .whyaFund img {
+        width: 100%;
+    }
+
+    .accordionAll .card {
+        transform: skew(0deg);
+    }
+    .accordionAll .card-header span {
+        transform: skew(0deg) !important;
+        font-size: 20px;
+    }
+    .socialIcon span {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    .accordionAll .card-body {
+        transform: skew(0deg);
+        font-size: 20px;
+    }
+    .footerText p {
+        font-size: 16px;
+    }
+    .roadd:before{
+        display: none;
+    }
+    .roadTwo {
+        margin-top: 15px;
+    }
+    .whatisObelix::after {
+        transform: scaleX(6);
+    }
+    .topNavbar{
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+    /*.topNavbar:after {*/
+    /*    background-image: url(../images/landing/slider4.png);*/
+    /*    height: 100%;*/
+    /*    background-size: cover;*/
+    /*    background-repeat: no-repeat;*/
+    /*    background-attachment: scroll;*/
+    /*    width: 100%;*/
+    /*    !* border-radius: 0 0 50% 50%/0 0 100% 100%; *!*/
+    /*    transform: scaleX(26);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    left: 0;*/
+    /*    top: 0;*/
+    /*    z-index: -1;*/
+    /*    background-color: #383838;*/
+    /*}*/
+    .bannerLeftText {
+        margin-top: 78px;
+    }
+    .bannerLeftText h3 {
+        margin-bottom: 2px;
+    }
+    .rewardsObelix::after {
+        transform: scaleX(5.5);
+    }
+    .rewardBtn:before {
+        left: 78%;
+    }
+    .titleareaRewards:before {
+        top: -68px;
+    }
+    .bannerArea .bannerbtn{
+        text-align: center !important;
+    }
+    .pooltarget img {
+        margin-left: 28px;
+    }
+    .whyaFundtitle h2 {
+        text-align: center;
+    }
+    .Roadtitle h2 {
+        text-align: center;
+    }
+
+    .rewardBtn .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+    .rewardBtn .mmb-3 {
+        margin-top: 20px !important;
+    }
+    .rewardBtn {
+        margin-top: 20px;
+    }
+    .rewardText p {
+        font-size: 20px;
+    }
+    .whyaFundtext p {
+        font-size: 20px;
+    }
+    .whatobeText p {
+        font-size: 20px;
+    }
+    .bannerLeftText h1 {
+        font-size: 26px;
+        text-align: center;
+        margin-left: -19px;
+    }
+    .bannerLeftText h3 img {
+        width: 75px;
+    }
+    .whatobeText h2 {
+        text-align: center;
+    }
+    .titleareaRewards h2 {
+        text-align: center;
+    }
+    .bannerLeftText{
+        margin-left: 0 !important;
+    }
+    .bannerbtn .btn-primary {
+        margin-top: 30px !important;
+    }
+    .stakeButton img {
+        width: 120px;
+    }
+    .pooltarget img {
+        width: 120px;
+    }
+    .twobtn img{
+        width: 120px;
+    }
+
+}
+
+
+/*fund page css*/
+.bodyfund{
+    background: #000;
+}
+.LeftSidebar {
+    width: 200px !important;
+    background: #fff;
+    height: 100vh !important;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+    z-index: 999;
+}
+.leftbarArea .navbar-expand-lg {
+    display: block;
+}
+.leftbarArea .navbar-expand-lg .navbar-collapse{
+    display: block !important;
+}
+.leftbarArea .navbar-nav {
+    display: block;
+    text-align: center;
+    margin-left: -5px;
+    margin-top: 25px;
+}
+.leftbarArea .navbar-nav a{
+    font-size: 20px;
+    line-height: 28px;
+    color: #000 !important;
+    font-weight: 100;
+}
+.activeStake{
+    font-weight: 500 !important;
+}
+.activePool{
+    font-weight: 500 !important;
+}
+.activeFund{
+     font-weight: 500 !important;
+ }
+.activeTrade{
+    font-weight: 500 !important;
+}
+.buttonMenu .poollargest img {
+    width: 118px;
+     margin-left: 0;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+.buttonMenu .stakebttn img, .twobttn img{
+    width:118px;
+}
+.fundpageContent{
+    background-image: linear-gradient(156deg, rgba(209,45,156,1) 25%, rgba(94,162,239,1) 171%);
+    -webkit-background-image: -webkit-linear-gradient(156deg, rgba(209,45,156,1) 25%, rgba(94,162,239,1) 171%);
+    -moz-background-image: -moz-linear-gradient(156deg, rgba(209,45,156,1) 25%, rgba(94,162,239,1) 171%);
+    height: 100%;
+    padding: 30px;
+}
+
+.fundText {
+    margin-top: 50px;
+}
+.fundText h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.fundText p {
+    color: #eee;
+    font-size: 18px;
+}
+.gimmebtn img{
+    cursor: pointer;
+}
+.collectoblex h2{
+    color: #fff;
+}
+.profitsharep a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+.itemfund {
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    /*width: 210px;*/
+}
+.itemfund p {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+    height: 40px;
+    margin-top: 5px;
+}
+.itemfund span {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 20px;
+    display: block;
+}
+.tableStake h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/*pool page*/
+.collectoblex h5{
+    color: #fff;
+    font-size: 20px;
+}
+.liqusdd .btn-warning {
+    border-radius: 4px !important;
+}
+.liqusdd .btn-white {
+    border-radius: 4px !important;
+    background: #fff !important;
+}
+
+.liqusdd .btn-white:hover {
+    background-image: linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    -webkit-background-image: -webkit-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+    -moz-background-image: -moz-linear-gradient(4deg, rgb(229,130,0) 26%, rgba(255,218,0,0.99608) 100%) !important;
+
+}
+.liqusdd a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+.selectPooll h3 {
+    color: #fff;
+}
+.selectPooll h3 span {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 4px;
+}
+.selectPooll h3 span img {
+    width: 30px;
+}
+.itemfundd{
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 221px;
+    padding: 15px;
+}
+.flagimg{
+    background-image: url("../images/fund/flag.png") ;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+
+}
+.itemfundd p {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+    height: 20px;
+    margin-top: 5px;
+}
+.itemfundd span {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 20px;
+    display: block;
+}
+
+
+.underlineetwo{
+    text-decoration: underline !important;
+    color: #fff;
+    line-height: 30px;
+    cursor: pointer;
+}
+.underlineetwo:hover{
+    color: #fff;
+}
+.drtt {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stakeMagic h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+.stakeMagic span {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.inputareaBtn {
+    position: relative;
+}
+.inputareaBtn input {
+    height: 82px;
+    border-radius: 4px;
+    border: 0px solid transparent;
+    padding-left: 15px;
+    position: relative;
+    outline: none;
+    width: 100%;
+}
+
+
+.inputareaBtn .btn-primary {
+    border-radius: 4px !important;
+    text-transform: unset;
+    padding: 13px 30px !important;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+/*.inputareaBtn .btn.btn-primary:hover{*/
+/*    background-color: #fff !important;*/
+/*    background: #fff !important;*/
+/*    color: #ab53b7 !important;*/
+/*    border: 2px solid #ab53b7 !important;*/
+/*}*/
+
+.gimmeyModal .modal-header {
+    border-bottom: none;
+}
+.gimmeyModal .modal-footer {
+    border-top: none;
+    margin-top: 30px;
+}
+
+
+/*.gimmebtnoff {*/
+/*    display: none;*/
+/*}*/
+/*.gimmebtn:hover .gimmebtnoff{*/
+/*    display: block;*/
+/*}*/
+/*.gimmebtn:hover .gimm{*/
+/*    display: none;*/
+/*}*/
+
+
+.undergo {
+    margin-left: 50%;
+}
+.stkm {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*Responsive CSS for other page fund/pool/stake*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .lefftt .leftbarArea .navbar-expand-lg {
+        display: flex;
+        box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+    }
+    .lefftt .leftbarArea .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+    .leftbarArea .navbar-expand-lg .navbar-collapse.d-block{
+        display: block !important;
+    }
+
+    .LeftSidebar {
+        width: 100% !important;
+        height: 100%;
+        position: relative;
+    }
+    .collectoblex img {
+        width: 163px;
+    }
+    .bigimmg img {
+        width: 240px;
+    }
+    .flagimg{
+        background-image: none;
+    }
+    .inputareaBtn .btn-primary {
+        padding: 9px 8px !important;
+        position: absolute;
+        right: 10px;
+        top: 19px;
+    }
+    .inputareaBtn input{
+        font-size: 14px;
+    }
+    .buttonMenu .poollargest img {
+        margin: 7px auto !important;
+    }
+    .twobttn img {
+        margin: 2px auto 14px !important;
+    }
+    .selectPooll .form-control {
+        width: 56% !important;
+        margin-left: 2px !important;
+    }
+    .stakebttn img {
+        margin: 0 auto !important;
+    }
+    .bannerbtn .btn-primary {
+        margin-left: 0;
+    }
+    .stkm span {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px){
+    .stakeTable .activeBarchart, .stakeTablee .activeBarchart {
+        width: 316px !important;
+    }
+    .drtt .undergo {
+        margin-left: 234px !important; ;
+    }
+    .stkm span {
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .leftbarArea .navbar-expand-lg {
+        display: flex;
+        box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+    }
+    .leftbarArea .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+    .leftbarArea .navbar-expand-lg .navbar-collapse.d-block{
+        display: block !important;
+    }
+
+    .LeftSidebar {
+        width: 100% !important;
+        height: 100%  ;
+        position: relative;
+    }
+    .leftheight{
+        height: 65px !important;
+    }
+    .collectoblex img {
+        width: 163px;
+    }
+    .leftbarArea .navbar-nav a {
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .stakeButton {
+        margin-top: 20px !important;
+    }
+    .stakebttn img {
+        width: 120px;
+        margin-bottom: 8px !important;
+        margin: 0 auto !important;
+    }
+    .buttonMenu .pooltarget img {
+        width: 120px;
+        margin-bottom: 8px;
+        margin-top: 7px;
+    }
+    .bigimmg img {
+        width: 240px;
+    }
+    .flagimg{
+         background-image: none;
+     }
+    .inputareaBtn .btn-primary {
+        padding: 9px 8px !important;
+        position: absolute;
+        right: 10px;
+        top: 19px;
+    }
+    .inputareaBtn input{
+        font-size: 14px;
+    }
+    .stakeMagic h3{
+        font-size: 17px;
+    }
+    .stakeMagic span {
+        margin-top: 2px;
+    }
+    .itemfundd p b {
+        font-size: 11px;
+    }
+    .activeBarchart {
+        width: 265px !important;
+        margin-left: -16px;
+    }
+    .threecc img{
+        width: 100%;
+    }
+    .tableStake h3 {
+        font-size: 17px;
+    }
+
+    .buttonMenu .poollargest img {
+        margin: 7px auto !important;
+    }
+    .twobttn img {
+        margin: 2px auto 14px !important;
+    }
+    .selectPooll .form-control {
+        width: 56% !important;
+        margin-left: 2px !important;
+    }
+    .liqusdd .tuto{
+        display: block;
+    }
+    .collectoblex img {
+        width: 40px;
+    }
+    .itemfund, .itemfundd {
+        text-align: center ;
+    }
+    .bigggimg {
+        width: 144px !important;
+        margin-bottom: 30px;
+    }
+    .undergo {
+        margin-left: 66% !important;
+    }
+    .bannerbtn .btn-primary {
+        margin-left: 0;
+    }
+    .stkm span {
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 568px){
+    .leftbarArea .navbar-expand-lg {
+        display: flex;
+        box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+    }
+    .leftbarArea .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+    .leftbarArea .navbar-expand-lg .navbar-collapse.d-block{
+        display: block !important;
+    }
+
+    .LeftSidebar {
+        width: 100% !important;
+        height: 100% !important;
+        position: relative;
+    }
+    .collectoblex img {
+        width: 163px;
+    }
+    .leftbarArea .navbar-nav a {
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .stakeButton {
+        margin-top: 20px !important;
+    }
+    .stakebttn img {
+        width: 120px;
+        margin-bottom: 5px;
+        margin: 0 auto;
+    }
+    .buttonMenu .pooltarget img {
+        width: 120px;
+        margin-bottom: 8px;
+        margin-top: 7px;
+    }
+    .bigimmg img {
+        width: 240px;
+    }
+    .flagimg{
+        background-image: none;
+    }
+    .inputareaBtn .btn-primary {
+        padding: 9px 8px !important;
+        position: absolute;
+        right: 10px;
+        top: 19px;
+    }
+    .inputareaBtn input{
+        font-size: 14px;
+    }
+
+    .stakeMagic h3{
+        font-size: 17px;
+    }
+    .stakeMagic span {
+        margin-top: 2px;
+    }
+    .itemfundd p b {
+        font-size: 11px;
+    }
+    .activeBarchart {
+        width: 265px;
+        margin-left: -16px;
+    }
+    .threecc img{
+        width: 100%;
+    }
+    .activeBarchart {
+        width: 223px;
+    }
+    .tableStake h3 {
+        font-size: 17px;
+    }
+    .buttonMenu .poollargest img {
+        margin: 7px auto !important;
+    }
+    .twobttn img {
+        margin: 2px auto 14px !important;
+    }
+    .selectPooll .form-control {
+        width: 56% !important;
+        margin-left: 2px !important;
+    }
+    .liqusdd .tuto{
+        display: block;
+    }
+    .collectoblex img {
+        width: 40px;
+    }
+    .itemfund {
+        text-align: center;
+    }
+    .bigggimg {
+        width: 144px !important;
+        margin-bottom: 30px;
+    }
+    .undergo {
+        margin-left: 60%;
+    }
+    .bannerbtn .btn-primary {
+        margin-left: 0;
+    }
+    .stkm span {
+        font-size: 17px;
+    }
+
+}
+
+
+
+.btn-purple {
+    background: none !important;
+    border: 2px solid #ab53b7 !important;
+    color: #ab53b7 !important;
+}
+.btn-purple:hover{
+    color: #fff !important;
+    background: #ab53b7 !important;
+}
+
